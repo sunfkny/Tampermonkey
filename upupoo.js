@@ -15,7 +15,6 @@
     var wallpaperRaw;
     var wallpaperView;
 
-
     //隐藏原下载按钮
     var rightParent = document.getElementsByClassName("wrapRightTop5")[0];
     var d = document.getElementsByClassName("inside2")[0];
@@ -35,7 +34,6 @@
     //添加底部按钮
     bottomParent.insertBefore(newItem, existingItem);
     document.getElementById("buttonDiv").innerHTML = '<a id="mView" style="font-size: 20px;display: inline-block;width: 240px;height: 50px;line-height:50px;border-radius: 100px;background-image:linear-gradient(-226deg, #009CFF 0%, #00E6FF 100%);margin: 15px;"align="center">在线预览</a><a id="mDownload" style="font-size: 20px;display: inline-block;width: 240px;height: 50px;line-height:50px;border-radius: 100px;background-image: linear-gradient(-226deg, #009CFF 0%, #00E6FF 100%);margin: 15px;"align="center">下载源文件</a>';
-
 
     var mDownload=document.getElementById("mDownload");
     var mView=document.getElementById("mView");
@@ -59,13 +57,8 @@
                 //提示视频预览有损
                 mView.textContent+="(有损)";
             }
-
-            //绑定按钮
-            //mDownload.href=wallpaperRaw;
-
             mDownload.href=wallpaperRaw;
             mView.onclick=function(){location.href=wallpaperView};
-
 
         }
     });
