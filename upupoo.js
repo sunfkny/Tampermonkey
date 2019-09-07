@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         UPUPOO增强
-// @description  为 啊噗啊噗动态壁纸 wallpaper.upupoo.com 添加网页下载功能
+// @description  为 啊噗啊噗动态壁纸 wallpaper.upupoo.com 添加网页下载和搜索等功能
 // @version      0.2
 // @author       Sunfkny
 // @grant        GM_xmlhttpRequest
