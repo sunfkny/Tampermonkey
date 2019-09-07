@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         UPUPOO增强
-// @description  为 wallpaper.upupoo.com 添加网页下载功能
+// @description  为 [UPUPOO网页版](http://wallpaper.upupoo.com) 添加功能
 // @version      0.1
 // @author       Sunfkny
 // @grant        GM_xmlhttpRequest
