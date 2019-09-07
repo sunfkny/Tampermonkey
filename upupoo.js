@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         UPUPOO增强
-// @description  为 啊噗啊噗动态壁纸 wallpaper.upupoo.com 添加网页下载和搜索等功能
-// @version      0.2
+// @description  为 啊噗啊噗动态壁纸 http://wallpaper.upupoo.com 添加功能
+// @version      0.3
 // @author       Sunfkny
 // @grant        GM_xmlhttpRequest
 // @match        http://wallpaper.upupoo.com/store/*
@@ -22,6 +22,12 @@
         var righttopParent = document.getElementsByClassName("top-btm")[0];
         var d2 = document.getElementsByClassName("download-func")[0];
         righttopParent.removeChild(d2);
+        //隐藏封面下载按钮
+        var coverDownloads = document.getElementsByClassName("bigBoxBtmHid");
+        for(var i in coverDownloads){
+            coverDownloads[i].style="display:none;";
+        }
+
 
 
         //注入脚本
