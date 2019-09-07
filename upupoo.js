@@ -15,20 +15,17 @@
     var url = window.location.href;
 
 
-    //匹配全站
-    if (url.search("http://wallpaper.upupoo.com/")!=-1){
+    //匹配非用户界面
+    if (url.search("user")==-1){
 
         //隐藏右上角下载按钮
         var righttopParent = document.getElementsByClassName("top-btm")[0];
         var d2 = document.getElementsByClassName("download-func")[0];
         righttopParent.removeChild(d2);
 
-
-
-
         //注入脚本
         unsafeWindow.search = function(){
-            location.href="http://wallpaper.upupoo.com/store/search-"+searchInput.value+"----.htm";
+            location.href="http://wallpaper.upupoo.com/store/search-"+searchInput.value+"-0-0-0-.htm";
         };
 
         unsafeWindow.onKeyPress = function(e){
@@ -53,23 +50,19 @@
         if (url.search("search")!=-1){
             searchInput.value=decodeURI(url.split("-")[1]);
         }
-        if (url.search("paperDetail")!=-1){
-            var searchWord=decodeURI(document.referrer.split("-")[1]);
-            if (searchWord != "undefined"){
-                searchInput.value=decodeURI(document.referrer.split("-")[1]);
-            }
-        }
     }
 
-    //匹配搜索页
-    if (url.search("search")!=-1){
+
+    //匹配搜索页，用户页
+    if (url.search("search")!=-1||url.search("user")!=-1){
         //隐藏封面下载按钮
         var coverDownloads = document.getElementsByClassName("bigBoxBtmHid");
-        for(var i in coverDownloads){
+        for(var i= 0; i< coverDownloads.length;i++){
             coverDownloads[i].style="display:none;";
         }
-
     }
+
+
     //匹配详情页
     if (url.search("paperDetail")!=-1){
         var num = url.replace(/[^0-9]/ig, "");
