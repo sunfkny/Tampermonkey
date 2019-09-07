@@ -53,8 +53,8 @@
     }
 
 
-    //匹配搜索页，用户页
-    if (url.search("search")!=-1||url.search("user")!=-1){
+    //匹配搜索页，用户页，首页
+    if (url.search("search")!=-1||url.search("user")!=-1||url.search("index")!=-1){
         //隐藏封面下载按钮
         var coverDownloads = document.getElementsByClassName("bigBoxBtmHid");
         for(var i= 0; i< coverDownloads.length;i++){
