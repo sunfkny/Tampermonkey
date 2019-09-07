@@ -5,3 +5,6 @@
   <a href="https://github.com/sunfkny/Tampermonkey"><img src="https://img.shields.io/github/stars/sunfkny/Tampermonkey.svg"></a>
   <a href="https://github.com/sunfkny/Tampermonkey/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/sunfkny/Tampermonkey.svg"></a>
 </p>
+
+# Greasy Fork脚本集合
+- UPUPOO增强：https://greasyfork.org/zh-CN/scripts/389858
