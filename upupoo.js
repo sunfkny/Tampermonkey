@@ -6,7 +6,8 @@
 // @grant        GM_xmlhttpRequest
 // @match        http://wallpaper.upupoo.com/store/*
 // @match        http://wallpaper.upupoo.com/
-// @namespace https://github.com/sunfkny/Tampermonkey
+// @license      GPL-3.0
+// @namespace    https://github.com/sunfkny/Tampermonkey
 // ==/UserScript==
 
 (function () {
