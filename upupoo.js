@@ -5,6 +5,7 @@
 // @author       Sunfkny
 // @grant        GM_xmlhttpRequest
 // @match        http://wallpaper.upupoo.com/store/*
+// @license GPL-3.0-only
 // ==/UserScript==
 
 (function () {
