@@ -22,11 +22,7 @@
         var righttopParent = document.getElementsByClassName("top-btm")[0];
         var d2 = document.getElementsByClassName("download-func")[0];
         righttopParent.removeChild(d2);
-        //隐藏封面下载按钮
-        var coverDownloads = document.getElementsByClassName("bigBoxBtmHid");
-        for(var i in coverDownloads){
-            coverDownloads[i].style="display:none;";
-        }
+
 
 
 
@@ -65,9 +61,17 @@
         }
     }
 
+    //匹配搜索页
+    if (url.search("search")!=-1){
+        //隐藏封面下载按钮
+        var coverDownloads = document.getElementsByClassName("bigBoxBtmHid");
+        for(var i in coverDownloads){
+            coverDownloads[i].style="display:none;";
+        }
 
+    }
     //匹配详情页
-    if (url.search("http://wallpaper.upupoo.com/store/")!=-1){
+    if (url.search("paperDetail")!=-1){
         var num = url.replace(/[^0-9]/ig, "");
         var fileName;
         var wallpaperRaw;
