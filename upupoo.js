@@ -51,7 +51,10 @@
             searchInput.value=decodeURI(url.split("-")[1]);
         }
         if (url.search("paperDetail")!=-1){
-            searchInput.value=decodeURI(document.referrer.split("-")[1]);
+            var searchWord=decodeURI(document.referrer.split("-")[1]);
+            if (searchWord != "undefined"){
+                searchInput.value=decodeURI(document.referrer.split("-")[1]);
+            }
         }
     }
 
