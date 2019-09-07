@@ -6,5 +6,5 @@
   <a href="https://github.com/sunfkny/Tampermonkey/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/sunfkny/Tampermonkey.svg"></a>
 </p>
 
-# Greasy Fork脚本集合
+# 我的Greasy Fork脚本
 - UPUPOO增强：https://greasyfork.org/zh-CN/scripts/389858
