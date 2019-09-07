@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         UPUPOO增强
 // @description  为 啊噗啊噗动态壁纸 http://wallpaper.upupoo.com 添加功能
-// @version      0.3
+// @version      0.4
 // @author       Sunfkny
 // @grant        GM_xmlhttpRequest
 // @match        http://wallpaper.upupoo.com/store/*
