@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         B站视频显示av号和bv号
 // @version      0.1
-// @description
+// @description  在B站视频下方提供av和bv号
 // @author       sunfkny
 // @match        *://*.bilibili.com/video/*
 // @match        *://*.bilibili.com/watchlater/*
