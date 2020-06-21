@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         稍后再看显示av号和bv号
+// @name         B站稍后再看显示av号和bv号
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
