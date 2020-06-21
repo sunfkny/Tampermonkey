@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         B站稍后再看显示av号和bv号
 // @version      0.1
-// @description  try to take over the world!
+// @description  在稍后再看的每个视频下方提供av和bv号
 // @author       You
 // @match        https://www.bilibili.com/watchlater/
 // @updateURL    https://cdn.jsdelivr.net/gh/sunfkny/Tampermonkey/B%E7%AB%99%E7%A8%8D%E5%90%8E%E5%86%8D%E7%9C%8B%E6%98%BE%E7%A4%BAav%E5%8F%B7%E5%92%8Cbv%E5%8F%B7.user.js
