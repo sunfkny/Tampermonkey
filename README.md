@@ -7,4 +7,6 @@
 </p>
 
 # 我的Greasy Fork脚本
-- UPUPOO增强：https://greasyfork.org/zh-CN/scripts/389858
+- ~~UPUPOO增强：[安装](https://cdn.jsdelivr.net/gh/sunfkny/Tampermonkey/upupoo.js)~~
+- B站稍后再看显示av号和bv号：[安装](https://cdn.jsdelivr.net/gh/sunfkny/Tampermonkey/B%E7%AB%99%E7%A8%8D%E5%90%8E%E5%86%8D%E7%9C%8B%E6%98%BE%E7%A4%BAav%E5%8F%B7%E5%92%8Cbv%E5%8F%B7.user.js)
+- B站视频显示av号和bv号：[安装](https://cdn.jsdelivr.net/gh/sunfkny/Tampermonkey/B%E7%AB%99%E8%A7%86%E9%A2%91%E6%98%BE%E7%A4%BAav%E5%8F%B7%E5%92%8Cbv%E5%8F%B7.user.js)
