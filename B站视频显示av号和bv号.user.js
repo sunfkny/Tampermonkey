@@ -4,7 +4,6 @@
 // @description  在B站视频下方提供av和bv号
 // @author       sunfkny
 // @match        *://*.bilibili.com/video/*
-// @match        *://*.bilibili.com/watchlater/*
 // @grant        none
 // @updateURL    https://cdn.jsdelivr.net/gh/sunfkny/Tampermonkey/B%E7%AB%99%E8%A7%86%E9%A2%91%E6%98%BE%E7%A4%BAav%E5%8F%B7%E5%92%8Cbv%E5%8F%B7.user.js
 // @downloadURL  https://cdn.jsdelivr.net/gh/sunfkny/Tampermonkey/B%E7%AB%99%E8%A7%86%E9%A2%91%E6%98%BE%E7%A4%BAav%E5%8F%B7%E5%92%8Cbv%E5%8F%B7.user.js
